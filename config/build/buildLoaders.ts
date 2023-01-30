@@ -10,4 +10,4 @@ export function buildLoaders(): webpack.RuleSetRule[] {
   return [
     typescriptLoader,
   ]
-};
+}
