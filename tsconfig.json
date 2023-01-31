@@ -1,20 +1,19 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
+    "outDir": "./build/",
+    "baseUrl": ".",
     "noImplicitAny": true,
-    "module": "CommonJS",
+    "module": "ESNext",
     "target": "es5",
     "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
-    "baseUrl": ".",
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-
+    "esModuleInterop": true, // позволяет использовать импроты es6
+    "allowSyntheticDefaultImports": true, // позволяет использовать импроты es6
   },
   "ts-node": {
     "compilerOptions": {
-      "module": "CommonJS",
+      "module": "CommonJS"
     }
   }
 }
