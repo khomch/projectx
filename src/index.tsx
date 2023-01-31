@@ -1,6 +1,7 @@
-import { render } from 'react-dom';
+import {render} from "react-dom";
+import App from "./App";
 
 render(
-  <div>12312312 AAA</div>,
+  <App />,
   document.getElementById('root')
 )

@@ -18,7 +18,7 @@ export function buildWebpackConfig(options: TBuildOptions): Configuration {
     },
     plugins: buildPlugins(options),
     module: {
-      rules: buildLoaders(),
+      rules: buildLoaders(options),
     },
     resolve: buildResolvers(),
     devtool: isDev ? 'inline-source-map' : undefined,
