@@ -1,11 +1,13 @@
 import React from 'react';
 
-export default function lazyLoadingTimeout<T>(dynamicImport: Promise<T>, countMSec: number): Promise<T>{
-  return new Promise((resolve)=>{
-    setTimeout(()=>{resolve(dynamicImport)}, countMSec);
-  })
-};
+function lazyLoadingTimeout<T>(dynamicImport: Promise<T>, countMSec: number): Promise<T> {
+    return new Promise((resolve) => {
+        setTimeout(() => { resolve(dynamicImport); }, countMSec);
+    });
+}
+
+export default lazyLoadingTimeout;
 
 export const AboutPageAsync = React.lazy(
-  () => { return lazyLoadingTimeout(import('./AboutPage'), 1500)},
+    () => lazyLoadingTimeout(import('./AboutPage'), 1500),
 );
