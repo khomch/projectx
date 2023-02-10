@@ -1,5 +1,6 @@
 {
   "test": "пример использования",
   "translate": "переведи это!",
-  "lang": "Eng"
+  "lang": "Eng",
+  "page is not found": "Страница не найдена"
 }
