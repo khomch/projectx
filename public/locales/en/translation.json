@@ -3,5 +3,8 @@
   "translate": "translate this!",
   "main": "Main page",
   "lang": "Rus",
-  "page is not found": "Page is not found"
+  "page is not found": "Page is not found",
+  "page-error": "Something happened",
+  "button-reload-page": "Reload Page",
+  "throw-error": "Throw error"
 }
