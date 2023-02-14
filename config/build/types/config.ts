@@ -1,6 +1,6 @@
 export type TBuildMode = 'production' | 'development';
 
-export type TBuildPath = {
+export type TBuildPaths = {
   entry: string;
   build: string;
   html: string;
@@ -14,7 +14,7 @@ export type TBuildEnv = {
 
 export type TBuildOptions = {
   mode: TBuildMode;
-  paths: TBuildPath;
+  paths: TBuildPaths;
   isDev: boolean;
   port: number;
 }
