@@ -5,5 +5,8 @@
   "page is not found": "Страница не найдена",
   "page-error": "Произошла непредвиденная ошибка",
   "button-reload-page": "Перезагрузить страницу",
-  "throw-error": "Выбросить ошибку"
+  "throw-error": "Выбросить ошибку",
+  "toggle-button": "Переключить",
+  "link-main": "Главная",
+  "link-about": "О сайте"
 }
