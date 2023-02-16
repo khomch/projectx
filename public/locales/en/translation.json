@@ -6,5 +6,6 @@
   "page is not found": "Page is not found",
   "page-error": "Something happened",
   "button-reload-page": "Reload Page",
-  "throw-error": "Throw error"
+  "throw-error": "Throw error",
+  "toggle-button": "Toggle"
 }
