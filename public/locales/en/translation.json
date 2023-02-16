@@ -7,5 +7,7 @@
   "page-error": "Something happened",
   "button-reload-page": "Reload Page",
   "throw-error": "Throw error",
-  "toggle-button": "Toggle"
+  "toggle-button": "Toggle",
+  "link-main": "Main",
+  "link-about": "About"
 }

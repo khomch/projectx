@@ -6,5 +6,7 @@
   "page-error": "Произошла непредвиденная ошибка",
   "button-reload-page": "Перезагрузить страницу",
   "throw-error": "Выбросить ошибку",
-  "toggle-button": "Переключить"
+  "toggle-button": "Переключить",
+  "link-main": "Главная",
+  "link-about": "О сайте"
 }
