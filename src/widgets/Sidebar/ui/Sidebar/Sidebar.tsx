@@ -47,6 +47,10 @@ export const Sidebar = ({ className }: SidebarProps) => {
                     <span className={cls.link}>{t('link-about')}</span>
 
                 </AppLink>
+                <div className={cls.switchers}>
+                    <ThemeSwitcher />
+                    <LangSwitcher short={collapsed} className={cls.lang} />
+                </div>
 
                 <Button
                     data-testid="sidebar-toggle"
@@ -56,12 +60,8 @@ export const Sidebar = ({ className }: SidebarProps) => {
                     size={ButtonSize.L}
                     square
                 >
-                    {collapsed ? '>' : '<'}
+                    {collapsed ? '' : ''}
                 </Button>
-                <div className={cls.switchers}>
-                    <ThemeSwitcher />
-                    <LangSwitcher short={collapsed} className={cls.lang} />
-                </div>
             </div>
         </div>
     );
