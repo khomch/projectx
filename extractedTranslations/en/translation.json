@@ -1,12 +1,19 @@
 {
+  "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
+    " Aliquid commodi consequatur eligendi impedit incidunt necessitatibus possimus quis saepe sunt totam": {
+      "": ""
+    }
+  },
   "about-us": "about-us",
   "button-reload-page": "",
   "lang": "",
   "link-about": "",
   "link-main": "",
+  "login": "login",
   "main-page": "main-page",
   "page is not found": "",
   "page-error": "",
   "throw-error": "",
-  "toggle-button": ""
+  "toggle-button": "",
+  "Войти": "Войти"
 }

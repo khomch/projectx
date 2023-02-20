@@ -9,5 +9,6 @@
   "throw-error": "Выбросить ошибку",
   "toggle-button": "Переключить",
   "link-main": "Главная",
-  "link-about": "О сайте"
+  "link-about": "О сайте",
+  "login": "Войти"
 }

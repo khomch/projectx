@@ -2,6 +2,8 @@ import { classNames } from 'shared/lib/helpers/classNames/classNames';
 import React, {
     ReactNode, useCallback, useEffect, useRef, useState,
 } from 'react';
+import { Portal } from 'shared/ui/Portal/Portal';
+import { useTheme } from 'app/providers/ThemeProvider';
 import cls from './Modal.module.scss';
 
 interface ModalProps {
@@ -37,9 +39,13 @@ export const Modal = ({
         e.stopPropagation();
     };
 
+    const { theme } = useTheme();
+
     const mods: Record<string, boolean> = {
         [cls.opened]: isOpen,
         [cls.isClosing]: isClosing,
+        [cls[theme]]: true,
+
     };
 
     const onKeyDown = useCallback((e: KeyboardEvent) => {
@@ -60,12 +66,17 @@ export const Modal = ({
     }, [isOpen, onKeyDown]);
 
     return (
-        <div className={classNames(cls.Modal, mods, [className])}>
-            <div className={cls.overlay} onClick={closeHandler}>
-                <div className={cls.content} onClick={onContentClick}>
-                    { children }
+        <Portal>
+            <div className={classNames(cls.Modal, mods, [className])}>
+                <div className={cls.overlay} onClick={closeHandler}>
+                    <div
+                        className={cls.content}
+                        onClick={onContentClick}
+                    >
+                        {children}
+                    </div>
                 </div>
             </div>
-        </div>
+        </Portal>
     );
 };

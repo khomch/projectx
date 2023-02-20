@@ -10,5 +10,6 @@
   "throw-error": "Throw error",
   "toggle-button": "Toggle",
   "link-main": "Main",
-  "link-about": "About"
+  "link-about": "About",
+  "login": "Login"
 }
