@@ -11,5 +11,7 @@
   "toggle-button": "Toggle",
   "link-main": "Main",
   "link-about": "About",
-  "login": "Login"
+  "login": "Login",
+  "increment": "increment",
+  "decrement": "decrement"
 }
