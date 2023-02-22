@@ -13,5 +13,8 @@
   "link-about": "About",
   "login": "Login",
   "increment": "increment",
-  "decrement": "decrement"
+  "decrement": "decrement",
+  "sign-in": "Sign in",
+  "enter-username": "Enter Username",
+  "enter-password": "Enter Password"
 }

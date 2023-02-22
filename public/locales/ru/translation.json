@@ -12,5 +12,8 @@
   "link-about": "О сайте",
   "login": "Войти",
   "increment": "увеличить",
-  "decrement": "уменьшить"
+  "decrement": "уменьшить",
+  "sign-in": "Войти",
+  "enter-username": "Введите имя пользователя",
+  "enter-password": "Введите пароль"
 }

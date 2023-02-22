@@ -7,6 +7,8 @@
   "about-us": "about-us",
   "button-reload-page": "button-reload-page",
   "decrement": "decrement",
+  "enter-password": "enter-password",
+  "enter-username": "enter-username",
   "increment": "increment",
   "lang": "lang",
   "link-about": "link-about",
@@ -15,6 +17,7 @@
   "main-page": "main-page",
   "page is not found": "page is not found",
   "page-error": "page-error",
+  "sign-in": "sign-in",
   "throw-error": "throw-error",
   "toggle-button": "toggle-button",
   "Войти": "Войти"
