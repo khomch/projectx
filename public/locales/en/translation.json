@@ -16,5 +16,8 @@
   "decrement": "decrement",
   "sign-in": "Sign in",
   "enter-username": "Enter Username",
-  "enter-password": "Enter Password"
+  "enter-password": "Enter Password",
+  "login-form": "Login Form",
+  "error-in-login-form": "Error in login form",
+  "logout": "Logout"
 }
