@@ -3,7 +3,7 @@
 - TS
 - SASS
 - React
-— Webpack
+- Webpack
 - Eslint
 - Stylelint
 - Jest
