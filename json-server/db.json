@@ -25,5 +25,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "first": "John",
+    "lastname": "Doe",
+    "age": 31,
+    "currency": "GBP",
+    "country": "United Kingdom",
+    "city": "London",
+    "username": "admin",
+    "avatar": "https://i.imgur.com/bKZQCOkl.jpg"
+  }
 }
