@@ -7,6 +7,7 @@
   "about-us": "about-us",
   "button-reload-page": "",
   "decrement": "decrement",
+  "edit": "edit",
   "enter-password": "",
   "enter-username": "",
   "error-in-login-form": "",
@@ -23,6 +24,9 @@
   "profile-page": "profile-page",
   "sign-in": "",
   "throw-error": "",
+  "title": "title",
   "toggle-button": "",
+  "your-lastname": "your-lastname",
+  "your-name": "your-name",
   "Войти": "Войти"
 }

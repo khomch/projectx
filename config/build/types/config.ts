@@ -8,8 +8,9 @@ export type TBuildPaths = {
 }
 
 export type TBuildEnv = {
-  mode: TBuildMode,
-  port: number
+  mode: TBuildMode;
+  port: number;
+  apiUrl: string;
 }
 
 export type TBuildOptions = {
@@ -17,4 +18,5 @@ export type TBuildOptions = {
   paths: TBuildPaths;
   isDev: boolean;
   port: number;
+  apiUrl: string;
 }
