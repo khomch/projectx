@@ -2,5 +2,13 @@
   "title": "Profile",
   "edit": "Edit",
   "your-name": "Your name",
-  "your-lastname": "Your lastname"
+  "your-lastname": "Your lastname",
+  "your-age":  "Your age",
+  "your-city": "Your city",
+  "your-username":  "Your username",
+  "your-avatar": "Your avatar",
+  "error-while-loading-page": "Error while loading page",
+  "error-while-loading-page-reload": "Please, reload page",
+  "cancel": "Cancel",
+  "save": "Save"
 }

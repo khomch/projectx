@@ -2,5 +2,13 @@
   "title": "Профиль",
   "edit": "Редактировать",
   "your-name": "Ваше имя",
-  "your-lastname": "Ваша фамилия"
+  "your-lastname": "Ваша фамилия",
+  "your-age":  "Ваш возраст",
+  "your-city": "Ваш город",
+  "your-username":  "Ваш логин",
+  "your-avatar": "Ваш аватар",
+  "error-while-loading-page": "Ошибка при загрузке страницы",
+  "error-while-loading-page-reload": "Попробуйте перезагрузить страницу",
+  "cancel": "Отмена",
+  "save": "Сохранить"
 }

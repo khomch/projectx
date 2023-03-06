@@ -7,11 +7,18 @@ export enum TextTheme {
     ERROR = 'error',
 }
 
+export enum TextAlign {
+    LEFT = 'left',
+    CENTER = 'center',
+    RIGHT = 'right',
+}
+
 interface TextProps {
     className?: string;
     title?: string;
     text?: string;
     theme?: TextTheme;
+    align?: TextAlign;
 }
 
 export const Text = memo((props: TextProps) => {
@@ -20,10 +27,12 @@ export const Text = memo((props: TextProps) => {
         title,
         text,
         theme = TextTheme.DEFAULT,
+        align = TextAlign.LEFT,
     } = props;
 
     const mods: Record<string, boolean> = {
         [cls[theme]]: true,
+        [cls[align]]: true,
     };
 
     return (
