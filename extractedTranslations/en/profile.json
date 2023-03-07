@@ -1,7 +1,15 @@
 {
+  "cancel": "",
   "edit": "",
+  "error-while-loading-page": "",
+  "error-while-loading-page-reload": "",
   "profile-page": "",
+  "save": "",
   "title": "",
+  "your-age": "",
+  "your-avatar": "",
+  "your-city": "",
   "your-lastname": "",
-  "your-name": ""
+  "your-name": "",
+  "your-username": ""
 }

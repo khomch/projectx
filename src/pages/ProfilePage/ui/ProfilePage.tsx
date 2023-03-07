@@ -15,7 +15,8 @@ import {
 } from 'entities/Profile';
 import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch/useAppDispatch';
 import { useSelector } from 'react-redux';
-import { Country, Currency } from 'shared/const/common';
+import { Currency } from 'entities/Currency';
+import { Country } from 'entities/Country';
 import { ProfilePageHeader } from '../ui/ProfilePageHeader/ProfilePageHeader';
 
 const reducers: ReducersList = {
@@ -81,6 +82,9 @@ const ProfilePage = memo(({ className }: ProfilePageProps) => {
                 onChangeAge={onChangeAge}
                 onChangeCity={onChangeCity}
                 onChangeUsername={onChangeUsername}
+                onChangeAvatar={onChangeAvatar}
+                onChangeCurrency={onChangeCurrency}
+                onChangeCountry={onChangeCountry}
             />
         </DynamicModuleLoader>
     );

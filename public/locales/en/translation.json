@@ -20,6 +20,8 @@
   "enter-password": "Enter Password",
   "login-form": "Login Form",
   "error-in-login-form": "Error in login form",
-  "logout": "Logout"
+  "logout": "Logout",
+  "choose-currency": "Choose currency",
+  "choose-country": "Choose country"
 
 }

@@ -19,5 +19,7 @@
   "enter-password": "Введите пароль",
   "login-form": "Форма авторизации",
   "error-in-login-form": "Ошибка в форме авторизации",
-  "logout": "Выйти"
+  "logout": "Выйти",
+  "choose-currency": "Выберите валюту",
+  "choose-country": "Выберите страну"
 }
