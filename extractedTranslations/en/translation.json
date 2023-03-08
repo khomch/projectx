@@ -35,6 +35,13 @@
   "throw-error": "",
   "title": "title",
   "toggle-button": "",
+  "validate": {
+    "age": "age",
+    "country": "country",
+    "noData": "noData",
+    "serverError": "serverError",
+    "userdata": "userdata"
+  },
   "your-age": "your-age",
   "your-avatar": "your-avatar",
   "your-city": "your-city",

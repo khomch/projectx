@@ -10,5 +10,11 @@
   "error-while-loading-page": "Error while loading page",
   "error-while-loading-page-reload": "Please, reload page",
   "cancel": "Cancel",
-  "save": "Save"
+  "save": "Save",
+  "validate.userdata": "Error in user data",
+  "validate.age": "Error in age",
+  "validate.country":  "Error in country",
+  "validate.serverError": "Server error",
+  "validate.noData":  "Error: no data provided"
+
 }

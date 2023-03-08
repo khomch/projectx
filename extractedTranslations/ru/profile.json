@@ -1,0 +1,11 @@
+{
+  "validate": {
+    "age": "age",
+    "country": "country",
+    "firstname": "firstname",
+    "noData": "noData",
+    "serverError": "serverError",
+    "user": "user",
+    "userdata": "userdata"
+  }
+}

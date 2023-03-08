@@ -10,5 +10,10 @@
   "error-while-loading-page": "Ошибка при загрузке страницы",
   "error-while-loading-page-reload": "Попробуйте перезагрузить страницу",
   "cancel": "Отмена",
-  "save": "Сохранить"
+  "save": "Сохранить",
+  "validate.userdata": "Ошибка в данных пользователя",
+  "validate.age": "Ошибка в возрасте",
+  "validate.country":  "Некорректный регион",
+  "validate.serverError": "Серверная ошибка при сохранении данных",
+  "validate.noData":  "Данные не указаны"
 }

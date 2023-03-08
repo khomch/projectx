@@ -6,6 +6,15 @@
   "profile-page": "",
   "save": "",
   "title": "",
+  "validate": {
+    "age": "",
+    "country": "",
+    "firstname": "",
+    "noData": "",
+    "serverError": "",
+    "user": "",
+    "userdata": ""
+  },
   "your-age": "",
   "your-avatar": "",
   "your-city": "",
