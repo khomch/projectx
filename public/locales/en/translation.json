@@ -9,9 +9,12 @@
   "button-reload-page": "Reload Page",
   "throw-error": "Throw error",
   "toggle-button": "Toggle",
+
   "link-main": "Main",
   "link-about": "About",
   "link-profile": "Profile",
+  "link-articles": "Articles",
+
   "login": "Login",
   "increment": "increment",
   "decrement": "decrement",

@@ -8,9 +8,12 @@
   "button-reload-page": "Перезагрузить страницу",
   "throw-error": "Выбросить ошибку",
   "toggle-button": "Переключить",
+
   "link-main": "Главная",
   "link-about": "О сайте",
   "link-profile": "Профиль",
+  "link-articles": "Статьи",
+
   "login": "Войти",
   "increment": "увеличить",
   "decrement": "уменьшить",
